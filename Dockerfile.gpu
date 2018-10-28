@@ -45,14 +45,18 @@ RUN pip3 --no-cache-dir install --upgrade \
         nmslib \
         pandas_summary \
         Pillow \
+        pipenv \
         pyhive \
         spacy \
         sklearn_pandas \
         textacy \
         torchtext \
         tqdm \
-        wget \
-        pipenv
+        wandb \
+        wget
+
+# Microsoft Azure Utils
+RUN pip install --extra-index-url https://dpucode.z6.web.core.windows.net/simple dpu-utils
 
 #For Fairseq-py
 ENV NVIDIA_VISIBLE_DEVICES all
@@ -71,7 +75,9 @@ ENV SHELL=/bin/bash
 VOLUME /ds
 WORKDIR /ds
 ADD run_jupyter.sh /ds/run_jupyter.sh
+ADD azure_auth.json /ds/azure_auth.json
 RUN chmod +x /ds/run_jupyter.sh
+RUN chmod +x /ds/azure_auth.json
 
 # Run the shell
 CMD [ "/bin/bash" ]
