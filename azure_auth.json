@@ -1,0 +1,6 @@
+{
+  "semanticcodesearch": {
+      "sas_token": "your-token-here",
+     "cache_location": "/tmp/semanticcodesearch"
+   }
+}
