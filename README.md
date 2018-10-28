@@ -1,12 +1,12 @@
-[![GitHub license](https://img.shields.io/github/license/hamelsmu/docker-gpu.svg)](https://github.com/hamelsmu/docker-gpu/blob/master/LICENSE)
-![Docker Build Status](https://img.shields.io/docker/build/hamelsmu/ml-gpu-light.svg)
-![Docker Automated build](https://img.shields.io/docker/automated/hamelsmu/ml-gpu-light.svg)
-![Docker Pulls](https://img.shields.io/docker/pulls/hamelsmu/ml-gpu-light.svg)
+[![GitHub license](https://img.shields.io/github/license/hamelsmu/docker-gpu.svg)](https://github.com/hamelsmu/ml-gpu-lite/blob/master/LICENSE)
+![Docker Build Status](https://img.shields.io/docker/build/hamelsmu/ml-gpu-lite.svg)
+![Docker Automated build](https://img.shields.io/docker/automated/hamelsmu/ml-gpu-lite.svg)
+![Docker Pulls](https://img.shields.io/docker/pulls/hamelsmu/ml-gpu-lite.svg)
 
 
 ### Docker image for machine learning on GPUs (deep learning)
 
-This repo is linked to the DockerHub repo: [hamelsmu/ml-gpu-light](https://hub.docker.com/r/hamelsmu/ml-gpu-light/).  Any changes to this repository will automatically trigger a new build of the docker image on DockerHub.
+This repo is linked to the DockerHub repo: [hamelsmu/ml-gpu-lite](https://hub.docker.com/r/hamelsmu/ml-gpu-lite/).  Any changes to this repository will automatically trigger a new build of the docker image on DockerHub.
 
 - **Some Notes About This Docker Image**
 
