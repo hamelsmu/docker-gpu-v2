@@ -43,7 +43,6 @@ RUN pip3 --no-cache-dir install --upgrade \
         ktext \
         more_itertools \
         nmslib \
-        opencv \
         pandas_summary \
         Pillow \
         pyhive \
