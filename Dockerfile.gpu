@@ -20,7 +20,6 @@ RUN apt-get update --fix-missing && apt-get install -y wget bzip2 ca-certificate
     openssh-server \
     python3.6 \
     software-properties-common \
-    tensorflow-gpu \
     vim \
     && \
 apt-get clean && \
@@ -55,6 +54,7 @@ RUN pip --no-cache-dir install --upgrade \
         pipenv \
         pyhive \
         sklearn_pandas \
+        tensorflow-gpu \
         textacy \
         torchtext \
         tqdm \
