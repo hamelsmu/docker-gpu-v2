@@ -80,6 +80,9 @@ ENV HOME=/ds
 ENV SHELL=/bin/bash
 VOLUME /ds
 WORKDIR /ds
+
+# Add helper files
+RUN pip freeze > container_requirements.txt
 ADD run_jupyter.sh /ds/run_jupyter.sh
 ADD azure_auth.json /ds/azure_auth.json
 RUN chmod +x /ds/run_jupyter.sh
