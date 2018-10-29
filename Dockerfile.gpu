@@ -25,10 +25,11 @@ RUN apt-get update --fix-missing && apt-get install -y wget bzip2 ca-certificate
 apt-get clean && \
 rm -rf /var/lib/apt/lists/*
 
+RUN apt-get update && apt-get upgrade
+
 #  Setup Python 3.6 (Need for other dependencies)
 RUN update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.5 1
 RUN update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.6 2
-RUN python -V # debugging
 RUN apt-get install -y python3-setuptools python3.6-dev
 RUN easy_install pip
 RUN pip install --upgrade pip
