@@ -42,11 +42,13 @@ RUN pip install torch_nightly -f https://download.pytorch.org/whl/nightly/cu92/t
 RUN pip --no-cache-dir install --upgrade \
         fastai \
         altair \
+        azure \
         annoy \
         graphviz \
         h5py \
         hdfs \
         isoweek \
+        ipdb \
         jsonpath_rw_ext \
         jupyter_contrib_nbextensions \
         ktext \
