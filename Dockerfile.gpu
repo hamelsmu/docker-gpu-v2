@@ -44,6 +44,7 @@ RUN pip --no-cache-dir install --upgrade \
         altair \
         azure \
         annoy \
+        dpu-utils \
         graphviz \
         h5py \
         hdfs \
@@ -65,9 +66,6 @@ RUN pip --no-cache-dir install --upgrade \
         tqdm \
         wandb \
         wget
-
-# Microsoft Azure Utils
-RUN pip install --extra-index-url https://dpucode.z6.web.core.windows.net/simple dpu-utils
 
 #For Fairseq-py
 ENV NVIDIA_VISIBLE_DEVICES all
