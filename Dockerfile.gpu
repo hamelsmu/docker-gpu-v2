@@ -63,6 +63,7 @@ RUN pip --no-cache-dir install --upgrade \
         tensorflow-gpu \
         textacy \
         torchtext \
+        typed_ast \
         tqdm \
         wandb \
         wget
