@@ -60,6 +60,7 @@ RUN pip --no-cache-dir install --upgrade \
         pipenv \
         pyhive \
         sklearn_pandas \
+        SetSimilaritySearch \
         tensorflow-gpu \
         textacy \
         torchtext \
