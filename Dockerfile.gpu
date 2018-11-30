@@ -21,6 +21,7 @@ RUN apt-get update --fix-missing && apt-get install -y wget bzip2 ca-certificate
     python3.6 \
     python3.6-dev \
     software-properties-common \
+    StyleFrame \
     vim \
     && \
 apt-get clean && \
