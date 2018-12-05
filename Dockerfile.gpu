@@ -20,6 +20,8 @@ RUN apt-get update --fix-missing && apt-get install -y wget bzip2 ca-certificate
     openssh-server \
     python3.6 \
     python3.6-dev \
+    pytest \
+    pytest-datadir \
     software-properties-common \
     vim \
     && \
